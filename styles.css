@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --fuente--titulo: 'Playfair', sans-serif;
+    --fuente--texto:'Roboto', sans-serif;
+}
+
+body {
+    font-family:var(--fuente--texto);
+    margin: 0;
+    padding: 0;
+    background-color: #f7f5eb;
+    color: #4b3f28;
+}
+header {
+    background-color: #8bc34a;
+    padding: 1rem 0;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    color: #fdd835;
+}
+section {
+    margin: 2rem auto;
+    max-width: 800px;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    color: #8bc34a;
+    border-bottom: 2px solid #fdd835;
+    padding-bottom: 0.5rem;
+    font-family: var(--fuente--titulo);
+    font-size: 2rem;
+    font-weight: 500;
+}
+ul {
+    list-style-type: square;
+    margin-left: 1.5rem;
+}
+footer {
+    background-color: #4b3f28;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+.btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #fdd835;
+    color: #4b3f28;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+.btn:hover {
+    background-color: #ffc107;
+}
+input, textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    padding: 0.5rem 1rem;
+    background-color: #8bc34a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #7cb342;
+}
+
+
+.sobre-mi {
+    display: flex;
+    justify-content: center; /* Centra el contenido de la sección */
+    padding: 20px;
+}
+
+.contenido {
+    display: flex;
+    justify-content: space-between; /* Espacio entre el texto y la imagen */
+    align-items: center; /* Alinea verticalmente el contenido */
+    max-width: 1200px; /* Establece un máximo ancho para la sección */
+    width: 100%;
+}
+
+.texto {
+    flex: 1; /* Hace que el texto ocupe el espacio restante */
+    padding-right: 20px; /* Añade espacio entre el texto y la imagen */
+    text-align: justify;
+}
+
+.imagen img {
+    max-width: 300px; /* Tamaño máximo de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 8px; /* Redondea las esquinas de la imagen */
+}
+
+.sobre-mi p {
+    font-size: 1.2rem;
+}
+
+.formacion {
+    text-align: center; /* Centra todo el contenido dentro de la sección */
+    padding: 20px;
+}
+
+.seccion-titulo {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px; /* Espacio entre el título y las imágenes */
+}
+
+.seccion-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.seccion-item {
+    text-align: center;
+}
+
+.seccion-item img {
+    width: 200px; /* Establece el ancho específico de la imagen */
+    height: 150px; /* Establece la altura específica de la imagen */
+    object-fit: contain; /* Mantiene el aspecto de la imagen dentro del tamaño especificado */
+    border-radius: 8px;
+}
+
+.seccion-item p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+#message {
+    resize: none;
+}
+
+
